@@ -9,7 +9,7 @@ Compiled using three benchmark datasets viz:
 1. SPIRS dataset (Shmueli, et al., 2020), X posts with the phrase being sarcastic (October, November 2019). Random English posts were scraped from X in the same time period to collect non-sarcastic records. (Initial raw compilation: 15,000 Sarcastic, 15,000 Non-Sarcastic, 30,000 Total)
 2. Ptáček, et al., 2014. Posts from X randomly scraped for non-sarcastic and using #sarcasm hashtag for sarcastic posts. (Initial raw compilation: 50,000 Sarcastic, 50,000 Non-Sarcastic, 100,000 Total)
 3. Riloff, et al., 2013. Posts scraped from X using #sarcastic or #sarcasm for sarcastic instances and randomly scraped posts for non-sarcastic instances. (Initial raw compilation: 35,000 Sarcastic, 140,000 Non-Sarcastic, 175,000 Total)
-* Special mention: Due to unavailability of dataset on Source Page(https://users.cs.utah.edu/~riloff/publications_chron.html); Riloff dataset was eventually sourced from https://github.com/MirunaPislar/Sarcasm-Detection/tree/master/res/datasets/riloff (1368 records in Train set, 588 records in Test set) 
+* Special mention: Due to unavailability of dataset on Source Page(https://users.cs.utah.edu/~riloff/publications_chron.html); Riloff dataset was eventually sourced from https://github.com/MirunaPislar/Sarcasm-Detection/tree/master/res/datasets/riloff (1368 records in Train set, 588 records in Test set with considerable deletion from original dataset) 
 ### Dataset Statistics
 * SarcOjiTest1 has a total of **7,228** text records.
 * The distribution is **52.6%** Sarcastic texts and **47.4%** Non-Sarcastic texts.
